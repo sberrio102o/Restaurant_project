@@ -1,0 +1,74 @@
+
+<?php
+$scripts = ['app']; // JS global 
+require 'include/funciones.php';
+incluirTemplates('header');
+// include 'include/templates/header.php'; 
+?>
+
+<section class="contacto container" id="contacto"> 
+
+<h2>Contáctanos</h2>
+
+<p>Déjanos tu mensaje y te responderemos pronto</p>
+
+<form class="formulario">
+    <div class="fila">
+    <div class="campo">
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" />
+    </div>
+
+    <div class="campo">
+        <label for="apellido">Apellido *</label>
+        <input
+        type="text"
+        id="apellido"
+        placeholder="Tu apellido"
+    
+        />
+    </div>
+    </div>
+
+    <div class="fila">
+    <div class="campo">
+        <label for="celular">Celular (opcional)</label>
+        <input type="tel" id="celular" placeholder="Ej: 3001234567" />
+    </div>
+
+    <div class="campo">
+        <label for="email">Email *</label>
+    <input
+        type="email"
+        id="email"
+        placeholder="correo@email.com"
+        
+        />
+    </div>
+    </div>
+
+    <div class="campo">
+      <label for="mensaje">Mensaje *</label>
+    <textarea
+        id="mensaje"
+        rows="5"
+        placeholder="Escribe tu mensaje..."
+        
+    ></textarea>
+    </div>
+
+    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+</form>
+</section>
+
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
