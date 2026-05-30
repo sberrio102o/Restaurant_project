@@ -1,0 +1,210 @@
+/* ==========================================================================
+   CONTENEDOR Y TARJETA
+   ========================================================================== */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 20px 50px 20px;
+}
+
+.menu-card {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.menu-card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   NAVEGACIÓN (BOTÓN CREAR)
+   ========================================================================== */
+.menu-nav {
+    margin-block: 20px;
+    text-align: left;
+}
+
+.menu-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #27ae60;
+}
+
+/* ==========================================================================
+   TABLA GLOBAL (DataTables Compatible)
+   ========================================================================== */
+#tablaPlatos th,
+#tablaPlatos td {
+    text-align: center;
+    vertical-align: middle !important; /* Fuerza a DataTables a respetar la alineación */
+}
+
+/* IMAGEN */
+.menu-img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; 
+    object-fit: cover;
+}
+
+/* ESTADO */
+.menu-estado {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* ==========================================================================
+   ACCIONES (BOTONES EDITAR / ELIMINAR)
+   ========================================================================== */
+.menu-acciones {
+    display: inline-flex; /* Cambiado a inline-flex para no romper el layout de celda */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Quitar margen del form para evitar saltos de línea */
+.form-eliminar {
+    margin: 0;
+    display: inline-block;
+}
+
+/* BOTONES BASE */
+.menu-btn-editar,
+.menu-btn-eliminar {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.menu-btn-editar {
+    background-color: #3498db;
+    color: white;
+}
+
+.menu-btn-eliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* HOVERS */
+.menu-btn-editar:hover {
+    background-color: #2980b9;
+}
+
+.menu-btn-eliminar:hover {
+    background-color: #c0392b;
+}
+
+/* EFECTO CLICK */
+.menu-btn-editar:active,
+.menu-btn-eliminar:active {
+    transform: scale(0.95);
+}
+
+
+/* CONTENEDOR */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 20px 50px 20px;
+}
+
+.menu-card {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.menu-card h1 {
+    text-align: center;
+}
+
+/* NAV */
+.menu-nav {
+    margin-block: 20px;
+    text-align: left;
+}
+
+.menu-btn {
+    background: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* TABLA GLOBAL */
+#tablaPlatos th,
+#tablaPlatos td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* IMAGEN */
+.menu-img {
+    width: 80px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; 
+}
+
+/* ESTADO */
+.menu-estado {
+    text-align: center;
+}
+
+/* ACCIONES */
+.menu-acciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* IMPORTANTE: quitar margen del form */
+.menu-acciones form {
+    margin: 0;
+}
+
+/* BOTONES */
+.menu-btn-editar {
+    background: #3498db;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-btn-eliminar {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* HOVER  */
+.menu-btn-editar:hover {
+    background: #2980b9;
+}
+
+.menu-btn-eliminar:hover {
+    background: #c0392b;
+}
